@@ -30,7 +30,7 @@ import (
 
 var (
 	masterPreflightLongDesc = normalizer.LongDesc(`
-		Run master pre-flight checks, functionally equivalent to what implemented by kubeadm init.
+		Run master pre-flight checks; functionally equivalent to those run by kubeadm init.
 		` + cmdutil.AlphaDisclaimer)
 
 	masterPreflightExample = normalizer.Examples(`
@@ -39,7 +39,7 @@ var (
 		`)
 
 	nodePreflightLongDesc = normalizer.LongDesc(`
-		Run node pre-flight checks, functionally equivalent to what implemented by kubeadm join.
+		Run node pre-flight checks; functionally equivalent to those run by kubeadm join.
 		` + cmdutil.AlphaDisclaimer)
 
 	nodePreflightExample = normalizer.Examples(`
